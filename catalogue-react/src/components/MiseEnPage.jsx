@@ -1,5 +1,6 @@
 import { Link, NavLink, Outlet } from 'react-router';
 
+
 // Ce qui est commun à toutes les pages. <Outlet /> marque l'endroit où s'affiche la page demandée.
 export default function MiseEnPage({ utilisateur, onDeconnexion }) {
   return (
