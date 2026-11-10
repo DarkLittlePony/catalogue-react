@@ -1,5 +1,6 @@
 import { Link } from 'react-router';
 import BoutonListe from './BoutonListe.jsx';
+
 // Une carte : elle ne décide de rien, elle affiche le livre qu'on lui donne.
 export default function CarteLivre({ livre }) {
   return (
