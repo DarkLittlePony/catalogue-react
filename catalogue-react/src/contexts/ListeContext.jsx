@@ -11,7 +11,11 @@ function charger() {
     }
 }
 export function ListeProvider({ children }) {
-    const [liste, dispatch] = useReducer(listeReducer, []);
+    const [liste, dispatch] = useReducer(listeReducer, [], charger);
+    // Après chaque changement de la liste, on l'enregistre. 
+    useEffect(() => {
+        localStorage.setItem(CLE, JSON.stringify(liste));
+    }, [liste]);
     const valeur = {
         liste,
         pleine: liste.length >= MAXIMUM,
