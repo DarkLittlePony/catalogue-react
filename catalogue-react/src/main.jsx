@@ -9,7 +9,7 @@ import './styles.css';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <App />
+      <AuthProvider> <App /> </AuthProvider>
     </BrowserRouter>
   </StrictMode>,
 );
