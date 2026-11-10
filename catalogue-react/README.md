@@ -3,8 +3,8 @@
 Application React du catalogue de la **bibliothèque municipale de Saint-Junien**.
 
 - **Client** : la bibliothèque municipale
-- **Équipe** : *(vos deux noms)*
-- **Dépôt** : *(l'adresse de votre dépôt GitHub)*
+- **Équipe** : Damien Bertrand - Martin Camus
+- **Dépôt** : https://github.com/DarkLittlePony/catalogue-react
 
 ## Lancer le projet
 
